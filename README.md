@@ -5,6 +5,7 @@ A [Resque](https://github.com/resque/resque) plugin. Requires Resque ~> 2.0.
 Resque plugin allowing long-running jobs to automatically fail after a specified time.
 
 ![main](https://github.com/and9000/resque-job_timeout/actions/workflows/main.yml/badge.svg?branch=main)
+[![Gem Version](https://badge.fury.io/rb/resque-job_timeout.svg)](https://badge.fury.io/rb/resque-job_timeout)
 
 ## Installation
 
