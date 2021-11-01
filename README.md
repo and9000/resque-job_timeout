@@ -28,7 +28,7 @@ Or install it yourself as:
 Extend your job with this gem.
 
 ```ruby
-require 'resque-job_timeout'
+require 'resque/job_timeout'
 
 class ExampleJob
   extend Resque::Plugins::JobTimeout
@@ -50,7 +50,7 @@ Resque::Plugins::JobTimeout.timeout = 1.hour
 
 ## Development
 
-After checking out the repo, run `bundle install` to install dependencies. Then, run `bundle exec rake` to run the tests.
+After checking out the repo, run `bundle install` to install dependencies. Then, run `bundle exec rake` to run the tests. A running Redis exposed on `127.0.0.1:6379` is needed.
 
 ## Contributing
 
